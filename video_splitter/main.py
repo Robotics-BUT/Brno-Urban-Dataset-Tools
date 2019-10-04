@@ -2,8 +2,8 @@ from video_to_images_converter import VideoToImagesConverter
 
 def main():
 
-    source_folder = '/home/autodrive/Data/final/downlink/1_2_7_1/'
-    destination_folder = '/home/autodrive/Data/final/downlink/1_2_7_1/'
+    source_folder = 'SOURCE_PATH/'
+    destination_folder = 'DESTINATION_PATH/'
 
     converter = VideoToImagesConverter()
     #converter.convert_single_camera(source_folder, destination_folder)
